@@ -1,5 +1,18 @@
 /* Change this file to get your personal Porfolio */
-
+import {
+  SiFlutter,
+  SiDart,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiGit,
+  SiAzuredevops,
+  SiJava,
+  SiMicrosoftsqlserver,
+  SiTypescript,
+  SiFirebase,
+} from "react-icons/si";
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
@@ -11,7 +24,7 @@ const settings = {
 const greeting = {
   title: "Hello",
   title2: "Endy",
-  logo_name: "endy.ng",
+  logo_name: "endy.tech",
   nickname: "Endy",
   full_name: "Nguyen Duong",
   subTitle: "Flutter Developer 🔥, ReactJs Developer . Always learning.",
@@ -46,47 +59,77 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          fontAwesomeClassname: <SiFlutter color="#02569B" />,
           style: {
             color: "#02569B",
           },
         },
         {
           skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
+          fontAwesomeClassname: <SiDart color="#29B0EE" />,
           style: {
             color: "#29B0EE",
           },
         },
         {
           skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          fontAwesomeClassname: <SiReact color="#61DAFB" />,
           style: {
             color: "#61DAFB",
           },
         },
         {
+          skillName: "TypeScript",
+          fontAwesomeClassname: <SiTypescript color="#3178C6" />,
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: <SiJavascript color="#F7DF1E" />,
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
           skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          fontAwesomeClassname: <SiHtml5 color="#E34F26" />,
           style: {
             color: "#E34F26",
           },
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: <SiCss3 color="#1572B6" />,
           style: {
             color: "#1572B6",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Java",
+          fontAwesomeClassname: <SiJava color="#f89820" />,
           style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
+            color: "#f89820",
           },
         },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: <SiFirebase color="#FFCA28" />,
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "AzureDevOps",
+          fontAwesomeClassname: <SiAzuredevops color="#1572B6" />,
+          style: {
+            color: "#1572B6",
+          },
+        },
+
         // {
         //   skillName: "PHP",
         //   fontAwesomeClassname: "simple-icons:php",
@@ -130,13 +173,6 @@ const skills = {
         //     color: "#3DDC84",
         //   },
         // },
-        // {
-        //   skillName: "Java",
-        //   fontAwesomeClassname: "simple-icons:java",
-        //   style: {
-        //     color: "#f89820",
-        //   },
-        // },
 
         // {
         //   skillName: "Visual Basic",
@@ -145,13 +181,13 @@ const skills = {
         //     color: "#029FCE",
         //   },
         // },
-        // {
-        //   skillName: "MySQL",
-        //   fontAwesomeClassname: "simple-icons:mysql",
-        //   style: {
-        //     color: "#4479A1",
-        //   },
-        // },
+        {
+          skillName: "SQL Server",
+          fontAwesomeClassname: <SiMicrosoftsqlserver color="#CC2927" />,
+          style: {
+            color: "#4479A1",
+          },
+        },
         // {
         //   skillName: "jQuery",
         //   fontAwesomeClassname: "simple-icons:jquery",
@@ -175,7 +211,7 @@ const skills = {
         // },
         {
           skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
+          fontAwesomeClassname: <SiGit color="#E94E32" />,
           style: {
             color: "#E94E32",
           },

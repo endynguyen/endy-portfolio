@@ -19,12 +19,13 @@ function SoftwareSkill(props) {
                 }
               >
                 <li className="software-skill-inline" name={logo.skillName}>
-                  <span
+                  {/* <span
                     className="iconify"
                     data-icon={logo.fontAwesomeClassname}
                     style={logo.style}
                     data-inline="false"
-                  ></span>
+                  ></span> */}
+                  {logo.fontAwesomeClassname}
                 </li>
               </OverlayTrigger>
             );
